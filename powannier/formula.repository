@@ -1,0 +1,131 @@
+\form#0:$ f $
+\form#1:$ \int dx^n f(x_1, \ldots, x_n) $
+\form#2:$ n $
+\form#3:$ \phi_{\vec{k}}(\vec{r}) = e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#4:$ u(\vec{r}) $
+\form#5:$ V(x) $
+\form#6:$ V(\vec{r}) $
+\form#7:$ \vec{k} $
+\form#8:$ \hat{H} \phi_{\vec{k}}(\vec{r}) = E_k \phi_{\vec{k}}(\vec{r}) $
+\form#9:$ \hat{H} = -\frac{\hbar^2}{2m} \nabla^2 + V(\vec{r}) $
+\form#10:$ E_R = \frac{\hbar^2 k_l^2}{2m} $
+\form#11:$ k_l $
+\form#12:$ i $
+\form#13:$ \phi_{n,\vec{k}}(\vec{r}) = e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#14:$ \hat{H} \phi_{n,\vec{k}}(\vec{r}) = E_k \phi_{n,\vec{k}}(\vec{r}) $
+\form#15:$\vec{a_i}$
+\form#16:$ \vec{b_i} $
+\form#17:$ \vec{r} $
+\form#18:$ \phi_{n,\vec{k}}(\vec{r}) $
+\form#19:$ \sum_i \textrm{beg}_i \vec{a_i} $
+\form#20:$ \vec{a_i} $
+\form#21:$ n$
+\form#22:$ r_{\textrm{beg}} = \sum_i \textrm{beg}_i \vec{a_i} $
+\form#23:$ r_{\textrm{end}} = \sum_i \textrm{end}_i \vec{a_i} $
+\form#24:$^n$
+\form#25:$\textrm{density}^n$
+\form#26:$ \textrm{density} $
+\form#27:$V$
+\form#28:$i$
+\form#29:$ \vec{k} = \sum_i (2\pi m_i / N) \vec{i} $
+\form#30:$ \vec{k} = 2 \pi \vec{m} / N $
+\form#31:$ \vec{m} = \{ m_1, m_2, \dots, m_n \}$
+\form#32:$ m_i \in \{-(N-1)/2, \dots, (N+1)/2\} $
+\form#33:$ m_i \in \{-N/2+1, \dots, N/2\} $
+\form#34:$ \phi_{i,\vec{k}} (\vec{r}) = e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#35:$ u(\vec{r}) = \sum_n u_n e^{i (n_i \vec{b_i}) \vec{r}} $
+\form#36:$ \hat{H} \phi_{i,\vec{k}} (\vec{r}) = E_k \phi_{i,\vec{k}}(\vec{r}) $
+\form#37:$ m_i \in \{0, \dots, N \}$
+\form#38:$\vec{k}$
+\form#39:$\phi_{i,\vec{k}}(\vec{r})$
+\form#40:$ u_n$
+\form#41:$ u(\vec{r}) = \sum_n u_{i,n} e^{i (\sum_j n_j \vec{b_j}) \vec{r}} $
+\form#42:$E_R$
+\form#43:$ u_{i,n}$
+\form#44:$\phi_{i,\vec{k}} (\vec{r})$
+\form#45:$ \phi_{i,\vec{k}} (\vec{r}) $
+\form#46:$ u_{i,n} $
+\form#47:$ \pi $
+\form#48:$ 10^{-15} $
+\form#49:$ 10^{-14} $
+\form#50:$ \int_{\textrm{xmin}}^{\textrm{xmax}} dx^n f(x_1, \ldots, x_n) $
+\form#51:$ W_{i,\vec{R} (\vec{r}) = \frac{1}{\sqrt{N^{\textrm{dim}}}} \sum_{\vec{k}} e^{-i\vec{k}\vec{R}}\phi_{i,\vec{k}}(\vec{r}) $
+\form#52:$ W_{i,\vec{R}} (\vec{r}) = \frac{1}{\sqrt{N^{\textrm{dim}}}} \sum_{\vec{k}} e^{-i\vec{k}\vec{R}}\phi_{i,\vec{k}}(\vec{r}) $
+\form#53:$ W_{i,\vec{R}} (\vec{r}) = \frac{1}{\sqrt{N^{dim}}} \sum_{\vec{k}} e^{-i\vec{k}\vec{R}}\phi_{i,\vec{k}}(\vec{r}) $
+\form#54:$ W_{i,\vec{R}} (\vec{r}) = \frac{1}{\sqrt{N^{dim}}} \sum_{\vec{k}} e^{-i\vec{k}\vec{R}}\phi_{i,\vec{k}}(\vec{r}). $
+\form#55:$ \vec{k} = \frac{2 \pi \vec{m}}{N a } $
+\form#56:$ \vec{k} = \frac{\sum_i m_i \vec{b}_i}{N} $
+\form#57:$ \vec{b}_i $
+\form#58:$ m = \{ m_1, m_2, \dots, m_{dim} \}$
+\form#59:$ \{ m_1, m_2, \dots, m_{dim} \}$
+\form#60:$ \frac{1} {\sqrt{N^{dim}}} \phi_{i,\vec{k}} (\vec{r}) = e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#61:$ \phi_{i,\vec{k}} (\vec{r}) = \frac{1}{\sqrt{N^{dim}}} e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#62:$ \phi_{i,\vec{k}} (\vec{r}) = \frac{1}{\sqrt{\Omega}} e^{i \vec{k} \vec{r}} u(\vec{r}) $
+\form#63:$ \Omega $
+\form#64:$ \vec{i} $
+\form#65:$ \hat{\lambda}_i = \frac{\vec{b}_i}{2\pi} $
+\form#66:$ \langle \phi_{\alpha, \vec{k}} | \hat{\lambda_i} | \phi_{\beta, \vec{k}'} \rangle = \frac{1}{\Omega} \int_{\Omega} d\vec{r} \lambda_i \sum_{m, n, m', n'} u^*_{\alpha,n} u_{\alpha,n'} e^{i \sum_j (n_j' - n_j + (m_j' - m_j)/N) \vec{b}_j \vec{r} } $
+\form#67:$ \vec{r}_i = N \vec{a_i} \lambda_i + c $
+\form#68:$ c $
+\form#69:$ c_{odd} = 0 $
+\form#70:$ c_{even} = \vec{a_i}/2 $
+\form#71:$ (N+1)/2 $
+\form#72:$ (N/2) $
+\form#73:$ d\lambda_i $
+\form#74:$ p $
+\form#75:$ q $
+\form#76:$ \Lambda_{p,q} = \langle \phi_{\alpha, \vec{k}} | \hat{\lambda_i} | \phi_{\beta, \vec{k}'} \rangle = \frac{1}{\Omega} \int_{\Omega} d\vec{r} \lambda_i \sum_{m, n, m', n'} u^*_{\alpha,n} u_{\alpha,n'} e^{i \sum_j (n_j' - n_j + (m_j' - m_j)/N) \vec{b}_j \vec{r} } $
+\form#77:$ \lambda_i $
+\form#78:$ \Lambda_{p,q} = \sum_{m, n, m', n'} \prod_i I_{i, m, n, m', n'} $
+\form#79:$ (\Lambda_i)_{p,q} = \langle \phi_{\alpha, \vec{k}} | \hat{\lambda_i} | \phi_{\beta, \vec{k}'} \rangle = \frac{1}{\Omega} \int_{\Omega} d\vec{r} \lambda_i \sum_{m, n, m', n'} u^*_{\alpha,n} u_{\alpha,n'} e^{i \sum_j (n_j' - n_j + (m_j' - m_j)/N) \vec{b}_j \vec{r} } $
+\form#80:$ (\Lambda_i)_{p,q} = \sum_{m, n, m', n'} I_{i, m_j, n_j, m_j', n_j'} \prod_{j\neq i} I_{i, m_j, n_j, m_j', n_j'} $
+\form#81:$ I_{i, m_i, n_i, m_i', n_i'} = \int_{-1/2, 1/2} d\lambda_i \lambda_i e^{2\pi i s_i \lambda_i} $
+\form#82:$ I_{m_j, n_j, m_j', n_j'} = \int_{-1/2, 1/2} d\lambda_j e^{2\pi i s_j \lambda_j} $
+\form#83:$ s_i = (N(n_i' - n_i) + m_i' - m_i) $
+\form#84:$ I_{j, m_j, n_j, m_j', n_j'} = \int_{-1/2, 1/2} d\lambda_j \lambda_j e^{2\pi i s_j \lambda_j} $
+\form#85:$ I_{j, m_j, n_j, m_j', n_j'} = \int_{-1/2}^{1/2} d\lambda_j \lambda_j e^{2\pi i s_j \lambda_j} $
+\form#86:$ I_{m_j, n_j, m_j', n_j'} = \int_{-1/2}^{1/2} d\lambda_j e^{2\pi i s_j \lambda_j} $
+\form#87:$\vec{r} = \vec{0}$
+\form#88:$ (\Lambda_i)_{p,q} = \sum_{m, n, m', n'} I_{i, m_j, n_j, m_j', n_j'} \prod_{j\neq i} I_{m_j, n_j, m_j', n_j'} $
+\form#89:$ I_{j, m_j, n_j, m_j', n_j'} = \sinc(\pi s_j) = \delta_{s_j, 0} $
+\form#90:$ I_{m_j, n_j, m_j', n_j'} = \frac{i (-s_j \pi \cos(\pi s_j)) + \sin(\pi s_j)}{2 \pi^2 s_j^2} = \frac{i}{2\pi s_j}(-1)^{s_j+1} (1-\delta_{s_j,0}) $
+\form#91:$ I_{j, m_j, n_j, m_j', n_j'} = \textrm{sinc}(\pi s_j) = \delta_{s_j, 0} $
+\form#92:$ s_j \in \mathbb{N} $
+\form#93:$ s_j \in \mathbb{Z} $
+\form#94:$s_j = 0 \iff m_i = m_i' \cap n_i = n_i' $
+\form#95:$ 0 \leq \max(m_i' - m_i) - \min(m_i' - m_i) < N $
+\form#96:$s_j = 0 \iff m_i = m_i' \wedge n_i = n_i' $
+\form#97:$s_j = 0 \iff m_j = m_j' \wedge n_j = n_j' $
+\form#98:$ 0 \leq \max(m_j' - m_j) - \min(m_i' - m_i) < N $
+\form#99:$ \Lambda_i $
+\form#100:$ \forall_{j \neq i} m_j = m_j' \wedge n_j = n_j' $
+\form#101:$ \vec{R} $
+\form#102:$\Lambda_i$
+\form#103:$ R_1, R_2, \dots, R_{i-1} $
+\form#104:$ R_i $
+\form#105:$ \phi_{\alpha,\vec{k}} $
+\form#106:$ W_{\vec{R}} (\vec{r}) $
+\form#107:$\vec{R}$
+\form#108:$W_{\vec{R}} (\vec{r})$
+\form#109:$ W_{\alpha,\vec{R}} (\vec{r}) = \frac{1}{\sqrt{N^{dim}}} \sum_{\vec{k}} e^{-i\vec{k}\vec{R}}\phi_{i,\vec{k}}(\vec{r}). $
+\form#110:$ \vec{0} $
+\form#111:$\Lambda_1$
+\form#112:$ \Lambda_1 $
+\form#113:$ \textrm{wanLocation}_i $
+\form#114:$ \hat{\lambda_1} $
+\form#115:$ W_{\vec{R}}(\vec{r}) $
+\form#116:$\hat{\lambda}_i$
+\form#117:$\hat{\lambda_n}$
+\form#118:$ \hat{\lambda}_i $
+\form#119:$ \hat{\lambda}_n $
+\form#120:$ \{ \alpha \} $
+\form#121:$ W_{\vec{R}} (\vec{r}) = \sum_{\alpha, \vec{k}} w_{\vec{R},\alpha,\vec{k}} \phi_{\vec{k}} (\vec{r}) $
+\form#122:$ w_{\vec{R},\alpha,\vec{k}} $
+\form#123:$ \hat{\lambda_i} $
+\form#124:$ \underbrace{\{1,1,\dots, 1\}}_{n} = \{ n \} $
+\form#125:$ \underbrace{\{\{\dots \{1\} \dots \} \} \} = 1 $
+\form#126:$ \{\{\dots \{1\} \dots \} \} = 1 $
+\form#127:$ \vec{R} = \{R_1, R_2, \dots, R_{dim}\} $
+\form#128:$ V(\vec{r}) = \sum_n V_n e^{i (\sum_j n_j \vec{b_j}) \vec{r}} $
+\form#129:$ n_i $
+\form#130:$ V_n $
